@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
 import { Avatar, MantineProvider, Button, Global, Title, Center, Stack, Group } from '@mantine/core';
-import { BrandYoutube, BrandDiscord, BrandGithub, BrandTwitter} from 'tabler-icons-react';
+import { BrandYoutube, BrandDiscord, BrandGithub, BrandTwitter, BrandSpotify } from 'tabler-icons-react';
 
 function App() {
   return (
     <MantineProvider theme={{ colorScheme: 'dark' }} withGlobalStyles>
       <main>
-        {/*Oh, the misery. Everybody wants to be my enemy. Spare the sympathy. Everybody wants to be my enemy.*/}
+        {/*Code by Epsi*/}
         <Global
         styles={(theme) => ({
           '*, *::before, *::after': {
@@ -77,6 +77,19 @@ function App() {
                 href="https://twitter.com/_epsiii"
               >
                 Twitter
+              </Button>
+              
+              <div class="space"/>
+              
+              <Button 
+                leftIcon={<BrandSpotify />} 
+                target="_blank"
+                component="a"
+                variant="gradient" 
+                gradient={{ from: 'green', to: '#3eba3c', deg: 127 }}
+                href="https://open.spotify.com/user/epsilonytb"
+              >
+                Spotify
               </Button>
             </Group>
           </Stack>
