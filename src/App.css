@@ -1,0 +1,10 @@
+main {
+  text-align: center;
+  vertical-align: center;
+  line-height: 100vh
+}
+.space {
+  width: 4px;
+  height: auto;
+  display: inline-block;
+}
