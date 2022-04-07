@@ -1,4 +1,4 @@
-## Running React on Repl.it
+## My socials' page
 
 This website was made with [React](https://reactjs.org/). It's a popular JavaScript library for building user interfaces.
 
