@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import { Avatar, MantineProvider, Button, Global, Title, Center, Stack, Group } from '@mantine/core';
-import { BrandYoutube, BrandDiscord, BrandGithub, BrandTwitter, BrandSpotify } from 'tabler-icons-react';
+import { BrandYoutube, BrandDiscord, BrandGithub, BrandTwitter, BrandSpotify, QuestionMark } from 'tabler-icons-react';
 
 function App() {
   return (
@@ -92,6 +92,14 @@ function App() {
                 Spotify
               </Button>
             </Group>
+            <Button
+                target="_blank"
+                component="a"
+                variant="gradient"
+                gradient={{ from: '#999999', to: '#dedede', deg: 127 }}
+                href="https://www.youtube.com/watch?v=iik25wqIuFo">
+                 ?
+              </Button>
           </Stack>
         </Center>
       </main>
