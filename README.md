@@ -1,5 +1,8 @@
 ## My socials' page
 
+![Screenshot from the Repl](https://i.ibb.co/HBbLDPn/image.png)
+
+
 This website was made with [React](https://reactjs.org/). It's a popular JavaScript library for building user interfaces.
 
 For the frontend, I used [Mantine](https://mantine.dev/), an open-source TypeScript based [React](https://reactjs.org/) components library, which includes more than 120 customizable components and hooks.
