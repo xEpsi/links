@@ -7,7 +7,6 @@ function App() {
   return (
     <MantineProvider theme={{ colorScheme: 'dark' }} withGlobalStyles>
       <main>
-        {/*Code by Epsi*/}
         <Global
         styles={(theme) => ({
           '*, *::before, *::after': {
@@ -48,7 +47,7 @@ function App() {
                 component="a"
                 variant="gradient" 
                 gradient={{ from: 'indigo', to: '#5865f2', deg: 134 }}
-                href="https://dsc.bio/epsi"
+                href="https://discord.epsi.space/"
               >
                 Discord
               </Button>
@@ -74,7 +73,7 @@ function App() {
                 component="a"
                 variant="gradient" 
                 gradient={{ from: '#00acee', to: '#62c6f1', deg: 75 }}
-                href="https://twitter.com/_epsiii"
+                href="https://twitter.com/epsi_dev"
               >
                 Twitter
               </Button>
@@ -87,7 +86,7 @@ function App() {
                 component="a"
                 variant="gradient" 
                 gradient={{ from: 'green', to: '#3eba3c', deg: 127 }}
-                href="https://open.spotify.com/user/epsilonytb"
+                href="https://spti.fi/epsi"
               >
                 Spotify
               </Button>
